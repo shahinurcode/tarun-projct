@@ -1,0 +1,759 @@
+  /*==========  Non-Mobile First Method  ==========*/
+  /* Large Devices, Wide Screens */
+  
+  @media only screen and (max-width: 1280px) {
+      .main_menu {
+          float: left;
+          left: 84%;
+          position: fixed;
+          text-align: justify;
+          top: 261px;
+          width: 174px;
+      }
+      .min_slider_title h1 {
+          font-size: 81px;
+          margin-top: 47px;
+          text-align: left;
+      }
+      .single_team_member h3:after {
+          left: 42%;
+          width: 226px;
+      }
+      .single_team_member h3 {
+          text-align: center;
+      }
+      .single_team_member img {
+          display: block;
+          float: left;
+          margin-bottom: 64px;
+          margin-right: 0;
+          overflow: hidden;
+          padding: 23px 35px 23px 23px;
+      }
+      .follow_me {
+          margin: 0 auto 0 42%;
+          width: 100%;
+      }
+      #slider_one h2 {
+          font-size: 42px;
+          left: 38%;
+          text-align: center;
+          top: 10%;
+      }
+      .join_net_content h2 {
+          font-size: 75px;
+      }
+      .work_with_us form input[type="text"] {
+          margin-right: 0;
+          width: 49%;
+      }
+      .work_with_us form input[type="email"] {
+          margin-right: 0;
+          width: 50%;
+      }
+  }
+  /* Medium Devices, Desktops */
+  
+  @media only screen and (max-width: 992px) {
+      .header_left {
+          background: url("img/header_bg_for_tablet.jpg") no-repeat fixed 50% 18% rgba(0, 0, 0, 0);
+          width: 800px;
+      }
+      .logo_header_1 {
+          background: url("img/new_logo_for_tablet.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+          height: 912px;
+          left: -45px;
+          position: relative;
+          right: 0;
+          width: 100%;
+      }
+      #slider_one h2 {
+          font-size: 34px;
+          left: 34%;
+          top: 5%;
+      }
+      .min_slider_title h1 {
+          font-size: 68px;
+          text-align: center;
+      }
+      .mini_slider_bottom_text h2 {
+          font-size: 22px;
+      }
+      .mini_slider_bottom_text h2:after {
+          left: 2px;
+          width: 209px;
+      }
+      .single_team_member h3:after {
+          left: 15%;
+          width: 226px;
+      }
+      .single_team_member img {
+          display: block;
+          margin-bottom: 4px;
+          padding: 23px 55px 23px 23px;
+          width: 100%;
+      }
+      .join_net_content img {
+          float: left;
+          width: 58%;
+      }
+      .join_net_content h2 {
+          font-size: 51px;
+      }
+      .work_with_us form input[type="text"] {
+          margin-right: 5px;
+          width: 48%;
+      }
+      .work_with_us form input[type="email"] {
+          margin-right: 0px;
+          width: 49%;
+      }
+      .footer_logo {
+          width: 241px;
+      }
+      .follow_me {
+          font-size: 20px;
+          margin: 0 auto 0 0;
+          padding-left: 9px;
+          padding-right: 129px;
+          padding-top: 0;
+          width: 100%;
+      }
+  }
+
+
+  /* Small Devices, Tablets */
+  
+  @media only screen and (max-width: 768px) {
+      .header_left {
+          background: url("img/header_bg_for_tablet.jpg") no-repeat fixed 50% 35% rgba(0, 0, 0, 0);
+          height: 786px;
+          width: 750px;
+      }
+      .logo_header_1 {
+          background: url("img/new_logo_for_tablet.png") no-repeat scroll 63% center rgba(0, 0, 0, 0);
+          height: 912px;
+          left: -12px;
+          right: 0;
+          width: 100%;
+      }
+      .main_menu {
+          float: left;
+          left: 84%;
+          text-align: left;
+          top: 336px;
+          width: 130px;
+          position: fixed;
+      }
+      .main_menu ul {
+          list-style: none outside none;
+          margin: 0;
+          padding: 0;
+          width: 125px;
+      }
+      .main_menu ul li a {
+          display: block;
+          font-size: 15px;
+          padding: 6px 10px;
+          text-align: right;
+          width: 115px;
+      }
+      .main_menu ul li a:hover {
+          background: #333;
+          padding: 10px 15px;
+          color: #fff;
+          width: 100%;
+          text-align: left;
+      }
+      #slider_one h2 {
+          color: #00ff66;
+          font-size: 40px;
+          left: 30%;
+          margin-bottom: 75px;
+          margin-top: 0;
+          top: 17px;
+      }
+      .min_slider_title h1 {
+          font-size: 68px;
+      }
+      .mini_slider_bottom_text h2 {
+          font-weight: 400;
+          margin-bottom: 20px;
+      }
+      .team_area {
+          margin-bottom: 50px;
+          padding: 29px 0 57px;
+      }
+      .single_team_member h3 {
+          padding-bottom: 13px;
+          text-align: center;
+      }
+      .single_team_member h3:after {
+          left: 14%;
+          width: 230px;
+      }
+      .single_team_member img {
+          display: block;
+          float: left;
+          margin-bottom: 38px;
+          margin-right: 0;
+          padding: 0 16%;
+          width: 100%;
+      }
+      .follow_me {
+          float: right;
+          font-size: 20px;
+          margin-left: 26px;
+          padding: 37px 114px 34px 1px;
+          text-align: left;
+          width: 73%;
+      }
+      .join_network_area {
+          margin-bottom: 57px;
+          padding: 21px;
+      }
+      #slider_one h2 {
+          font-family: 'OpenSans', sans-serif;
+          font-size: 32px;
+          font-weight: 700;
+          left: 35%;
+          text-align: center;
+          top: 13%;
+          z-index: 9999;
+      }
+      .join_net_content img {
+          padding: 0 3%;
+          text-align: center;
+          width: 49%;
+      }
+      .work_with_us form input[type="submit"] {
+          float: left;
+      }
+      .work_with_us form input[type="text"] {
+          width: 47%;
+      }
+      .work_with_us form input[type="email"] {
+          width: 50%;
+      }
+      .footer_logo {
+          margin-top: 37px;
+          width: 251px;
+      }
+  }
+
+
+  /* medium Devices, Tablets */
+  
+  @media only screen and (max-width: 650px) {
+      .header_left {
+          height: 675px;
+          left: -5px;
+          margin: 0 auto;
+          top: -244px;
+          width: 550px;
+      }
+      .logo_header_1 {
+          background: url("img/logo_for_wide_mob.png") no-repeat scroll 63% 59% rgba(0, 0, 0, 0);
+          left: 0;
+          width: 101%;
+      }
+      .main_menu {
+          float: left;
+          left: 18px;
+          margin-bottom: 30px;
+          padding: 0 3%;
+          position: absolute;
+          text-align: center;
+          top: 486px;
+          width: 94%;
+      }
+      .main_menu ul {
+          left: 4%;
+          list-style: none outside none;
+          margin: 0;
+          padding: 0;
+          width: 100%;
+      }
+      .main_menu ul li a {
+          background: none repeat scroll 0 0 #2884ab;
+          color: #fff;
+          display: inline-block;
+          font-size: 17px;
+          padding: 12px 15px;
+          text-align: center;
+          width: 100%;
+      }
+      .main_menu ul li a:hover {
+          background: #333;
+          padding: 10px 15px;
+          color: #fff;
+          width: 90%;
+          text-align: center;
+      }
+      .header_text {
+          background: none repeat scroll 0 0 #f2f7fb;
+          font-family: 'OpenSans', sans-serif;
+          font-size: 24px;
+          font-weight: 600;
+          line-height: 30px;
+          margin-bottom: 90px;
+          margin-top: 115px;
+          padding: 4px 30px 0;
+          text-align: center;
+      }
+      #slider_one h2 {
+          font-size: 39px;
+          left: 24%;
+          margin-bottom: 75px;
+          margin-top: 60px;
+          text-align: center;
+          top: -38px;
+      }
+      .min_slider_title h1 {
+          font-size: 93px;
+          margin-bottom: 28px;
+          margin-top: 47px;
+          text-align: center;
+      }
+      .mini_slider_bottom_text h2 {
+          font-size: 26px;
+          font-weight: 400;
+          margin-left: 15px;
+          padding-bottom: 12px;
+          position: relative;
+          text-align: center;
+      }
+      .mini_slider_bottom_text h2:after {
+          background: none repeat scroll 0 0 #666;
+          bottom: -5px;
+          content: "";
+          height: 1px;
+          left: 50%;
+          margin-left: -135px;
+          width: 270px;
+      }
+      .left_content {
+          margin-bottom: 32px;
+          text-align: left;
+          padding: 0 15px;
+      }
+      .right_text {
+          margin: 0;
+          padding: 0 15px;
+      }
+      .team_area {
+          background: none repeat scroll 0 0 #101636;
+          margin-bottom: 27px;
+          padding: 50px 0 70px;
+      }
+      .single_team_member {
+          margin-bottom: 70px;
+      }
+      .join_net_content h2 {
+          float: right;
+          font-size: 67px;
+          margin-top: 1px;
+          text-align: center;
+          width: 50%;
+      }
+      .single_team_member h3:after {
+          left: 27%;
+          width: 251px;
+      }
+      .work_with_us {
+          margin: 0 auto;
+          width: 95%;
+      }
+      .work_with_us form input[type="email"] {
+          width: 50%;
+      }
+      .footer_logo {
+          display: block;
+          margin: 42px auto 0;
+          padding: 0 25%;
+          text-align: center;
+          width: 100%;
+      }
+      .copyright_info {
+          line-height: 26px;
+          text-align: center;
+          margin-bottom: 30px;
+      }
+      .social_icon {
+          float: left;
+          text-align: center;
+          width: 100%;
+      }
+      .follow_me {
+          width: 48%;
+      }
+  }
+
+
+  /* Extra Small Devices, Phones */
+  
+  @media only screen and (max-width: 480px) {
+      .header_left {
+          background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+          height: 669px;
+          left: -5px;
+          margin: 0 auto;
+          top: -353px;
+          width: 350px;
+      }
+      .logo_header_1 {
+          background: url("img/mobaile_logo.png") no-repeat scroll 50% 60% rgba(0, 0, 0, 0);
+          left: -10px;
+      }
+      .main_menu {
+          float: left;
+          left: 14px;
+          margin-bottom: 30px;
+          padding: 0 3%;
+          position: absolute;
+          text-align: center;
+          top: 356px;
+          width: 94%;
+      }
+      .main_menu ul {
+          left: 4%;
+          list-style: none outside none;
+          margin: 0;
+          padding: 0;
+          width: 100%;
+      }
+      .main_menu ul li a {
+          background: none repeat scroll 0 0 #2884ab;
+          color: #fff;
+          display: inline-block;
+          font-size: 17px;
+          padding: 12px 15px;
+          text-align: center;
+          width: 100%;
+      }
+      .main_menu ul li a:hover {
+          background: #333;
+          padding: 10px 15px;
+          color: #fff;
+          width: 90%;
+          text-align: center;
+      }
+      .header_text {
+          font-size: 24px;
+          font-weight: 500;
+          line-height: 30px;
+          margin-bottom: 63px;
+          margin-top: -46px;
+          padding: 4px 30px 0;
+          text-align: center;
+      }
+      #slider_one h2 {
+          font-size: 28px;
+          left: 26%;
+          position: absolute;
+          text-align: center;
+          top: -49px;
+          z-index: 9999;
+      }
+      .min_slider_title h1 {
+          font-size: 45px;
+          margin-bottom: 28px;
+          margin-top: 13px;
+          text-align: center;
+      }
+      .left_content {
+          letter-spacing: 0;
+          padding: 0 10px;
+          text-align: left;
+      }
+      .mini_slider_bottom_text h2 {
+          color: #3d4042;
+          font-family: 'Lato', sans-serif;
+          font-size: 27px;
+          font-weight: 400;
+          padding-bottom: 3px;
+          position: relative;
+          text-align: center;
+      }
+      .mini_slider_bottom_text h2:after {
+          background: none repeat scroll 0 0 #666;
+          bottom: -5px;
+          content: "";
+          height: 1px;
+          left: 0;
+          margin-left: 17%;
+          position: absolute;
+          width: 62%;
+      }
+      .single_team_member h3 {
+          font-size: 23px;
+          text-align: center;
+          padding-bottom: 7px;
+      }
+      .single_team_member h3:after {
+          left: 26%;
+          width: 200px;
+      }
+      .single_team_member img {
+          display: block;
+          float: left;
+          margin: 0 auto;
+          padding: 11% 18%;
+          text-align: center;
+          width: 100%;
+      }
+      .team_area {
+          background: none repeat scroll 0 0 #101636;
+          margin-bottom: 6px;
+          padding: 23px 0 52px;
+      }
+      .our_team h2 {
+          font-size: 33px;
+          font-weight: 700;
+          margin-bottom: 4px;
+          margin-top: 44px;
+          text-align: center;
+      }
+      .single_team_member h3:after {
+          margin-bottom: 0;
+          margin-left: -70px;
+          margin-right: auto;
+          width: 285px;
+      }
+      .join_net_content h2 {
+          float: left;
+          font-size: 59px;
+          margin-top: 0;
+          text-align: center;
+      }
+      .join_network_area {
+          margin-bottom: 1px;
+          padding: 50px;
+      }
+      .join_net_content img {
+          padding: 0 3%;
+          text-align: center;
+          width: 94%;
+      }
+      .join_net_content h2 {
+          float: left;
+          font-size: 52px;
+          margin-top: 0;
+          text-align: center;
+          width: 100%;
+      }
+      .work_with_us {
+          margin: 0 auto;
+          width: 95%;
+      }
+      .work_with_us h2 {
+          font-size: 25px;
+          font-weight: 700;
+          margin-bottom: 30px;
+          padding-bottom: 5px;
+          position: relative;
+          text-align: center;
+      }
+      .work_with_us h2:after {
+          left: 24%;
+      }
+      .work_with_us form input[type="text"] {
+          width: 100%;
+      }
+      .work_with_us form input[type="email"] {
+          width: 100%;
+      }
+      .work_with_us form input[type="submit"] {
+          float: left;
+          padding: 6px 11px;
+      }
+      .footer_logo {
+          float: left;
+          height: auto;
+          margin-top: 72px;
+          padding: 0 2%;
+          width: 94%;
+      }
+      .footer_logo img {
+          margin: 0 auto;
+          display: block;
+      }
+      .copyright_info {
+          line-height: 25px;
+          margin-bottom: 30px;
+          text-align: center;
+          text-transform: capitalize;
+          width: 100%;
+      }
+      .social_icon {
+          float: left;
+          text-align: center;
+          width: 100%;
+      }
+      .follow_me {
+          width: 76%;
+      }
+  }
+
+
+  /* Custom, iPhone Retina */
+  
+  @media only screen and (max-width: 320px) {
+      .logo_header_1 {
+          background: url("img/for_small_mob.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+          height: 993px;
+          margin-bottom: 30px;
+          width: 81%;
+      }
+      .logo_header_2 {
+          background: none;
+      }
+      .header_text {
+          font-size: 21px;
+          font-weight: 400;
+          line-height: 30px;
+          margin-bottom: 32px;
+          margin-top: -56px;
+          padding: 4px 15px 0;
+      }
+      .main_menu {
+          float: left;
+          left: 15px;
+          margin-bottom: 30px;
+          padding: 0 4%;
+          position: absolute;
+          text-align: center;
+          top: 342px;
+          width: 92%;
+      }
+      .main_menu ul {
+          left: 4%;
+          list-style: none outside none;
+          margin: 0;
+          padding: 0;
+          width: 100%;
+      }
+      .main_menu ul li a {
+          background: none repeat scroll 0 0 #2884ab;
+          color: #fff;
+          display: inline-block;
+          font-size: 17px;
+          padding: 12px 15px;
+          text-align: center;
+          width: 100%;
+      }
+      .main_menu ul li a:hover {
+          background: #333;
+          padding: 10px 15px;
+          color: #fff;
+          width: 90%;
+          text-align: center;
+      }
+      .mini_slider_area {
+          padding: 7px 18px;
+      }
+      .min_slider_title h1 {
+          font-size: 48px;
+          text-align: center;
+      }
+      #slider_one h2 {
+          font-size: 14px;
+          left: 34%;
+          top: -49px;
+      }
+      .mini_slider_bottom_text h2:after {
+          background: none repeat scroll 0 0 #666;
+          height: 1px;
+          left: -42px;
+          width: 248px;
+      }
+      .team_area {
+          background: none repeat scroll 0 0 #101636;
+          margin-bottom: 30px;
+          padding: 40px 0 49px;
+      }
+      .single_team_member img {
+          display: block;
+          float: left;
+          height: 100%;
+          margin-bottom: 9px;
+          margin-right: 0;
+          overflow: hidden;
+          width: 100%;
+      }
+      .single_team_member h3 {
+          padding-bottom: 11px;
+          text-align: center;
+      }
+      .single_team_member h3:after {
+          left: 40%;
+          width: 200px;
+      }
+      .single_team_member {
+          margin-bottom: 7px;
+          text-align: center;
+          width: 96%;
+      }
+      .follow_me {
+          margin-left: 0;
+          width: 90%;
+      }
+      .join_network_area {
+          margin-bottom: 15px;
+          padding: 12px;
+      }
+      .join_net_content h2 {
+          float: right;
+          font-size: 37px;
+          text-align: center;
+      }
+      .work_with_us {
+          margin: 0 auto;
+          width: 95%;
+          margin-bottom: 87px;
+          padding: 0 10px;
+      }
+      .work_with_us h2 {
+          text-align: center;
+      }
+      .work_with_us h2:after {
+          left: 34px;
+      }
+      .work_with_us form input[type="text"] {
+          width: 100%;
+      }
+      .work_with_us form input[type="email"] {
+          width: 100%;
+      }
+      .work_with_us form input[type="submit"] {
+          float: left;
+      }
+      .work_with_us {
+          margin-bottom: 35px;
+      }
+      .footer_logo {
+          display: block;
+          float: left;
+          width: 100%;
+      }
+      .copyright_info {
+          line-height: 24px;
+          margin-bottom: 30px;
+          padding: 5px 30px;
+          text-align: center;
+          text-transform: capitalize;
+          width: 100%;
+      }
+      .left_content {
+          letter-spacing: 0;
+          padding: 0 10px;
+          text-align: left;
+          margin: 0;
+      }
+      .right_text {
+          margin: 0;
+      }
+  }
+
+/* End of responsive css*/
+
